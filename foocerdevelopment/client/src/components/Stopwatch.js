@@ -33,9 +33,13 @@ function Stopwatch() {
     <div>
       <h1>Stopwatch</h1>
       <p>{time} seconds</p>
-      <button onClick={handleStart}>Start</button>
+      <button onClick={handleStart} disabled={isRunning}>
+        Start
+      </button>
       <button onClick={handleStop}>Stop</button>
-      <button onClick={handleReset}>Reset</button>
+      <button onClick={handleReset} disabled={!isRunning}>
+        Reset
+      </button>
     </div>
   );
 }

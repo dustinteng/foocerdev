@@ -1,0 +1,28 @@
+/* Set the background color for the header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+body {
+  font-size: 20px;
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 480px) {
+  /* Set the font size for the body to 14px */
+  body {
+    font-size: 14px;
+  }
+
+  /* Increase the padding for the header and footer */
+  header,
+  footer {
+    padding: 1.5rem;
+  }
+
+  /* Decrease the padding for the main content */
+  main {
+    padding: 0.5rem;
+  }
+}
