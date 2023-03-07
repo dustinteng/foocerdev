@@ -1,7 +1,7 @@
 import "./App.css";
 import io from "socket.io-client";
 import { useEffect, useState } from "react";
-
+// import style
 import styles from "./styles.css";
 import Timer from "./components/Timer";
 import Stopwatch from "./components/Stopwatch";
